@@ -1,5 +1,5 @@
 body {
-  background-image: url('4404.jpg');
+  background-image: url('3030.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -70,11 +70,15 @@ a{
 .submit_btn{
   background: rgb(50, 211, 29); 
   color: #ffffff;
-  border: 1px solid black;
+  border: 1px solid green;
   height: 45px;
   font-size: 1rem;
   font-weight: bold;
   margin: 2% 0px;
+}
+
+.submit_btn:hover{
+  cursor: pointer;
 }
 
 .form_textfield {
