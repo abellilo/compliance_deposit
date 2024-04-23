@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.css" > -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" > -->
+    <link rel="icon" type="image/x-icon" href="images/CMBANK LG.png">
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="icon" type="image/x-icon" href="CMBANK LG.png">
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <img src="images/CMBANK LG.png" alt="cmbank" class="cmbank_img_login">
+    <h3 class="login_title">Deposit Mobilization Portal</h3>
+        <form action="" method="post" enctype="multipart/form-data" class="login_form">
+            <span class="user_login_text"><b>Staff Registration</b></span><br>
+            <div class="input_name"><b>Full Name</b></div>
+            <input  type="text" name="fullname" placeholder="Full Name"  class="form_textfield"  required >
+            <div class="input_name"><b>Email Address</b></div>
+            <input  type="text" name="email" placeholder="Email Address"  class="form_textfield"  required >
+            <div class="input_name"><b>Password</b></div>
+            <input  type="password" name="password" placeholder="Password"  class="form_textfield"  required >
+            <div class="input_name"><b>Confirm Password</b></div>
+            <input  type="password" name="cpassword" placeholder="Confirm Password"  class="form_textfield"  required >
+            <div class="type">
+            <div class="input_name"><b>Type of Staff</b></div>
+            <select name="type">
+                <option value="select">Select your type</option>
+                <option value="Backend Staff">Backend Staff</option>
+                <option value="Non-Backend Staff">Non-Backend Staff</option>
+              </select>
+            </div>
+            <div class="level">
+            <div class="input_name"><b>Level of Staff</b></div>
+            <select name="level">
+                <option value="select">Select your level</option>
+                <option value="ET II">ET II</option>
+                <option value="ET">ET</option>
+                <option value="SE">SE</option>
+                <option value="ABO">ABO</option>
+                <option value="BO">BO</option>
+                <option value="SBO">SBO</option>
+                <option value="AM">AM</option>
+                <option value="DM">DM</option>
+                <option value="MGR II">MGR II</option>
+                <option value="MGR">MGR</option>
+                <option value="SM">SM</option>
+                <option value="MD">MD</option>
+              </select>
+            </div>
+            <input type="submit" name="save" value="S I G N U P" class="submit_btn"><br>
+        </form>
+        <p class="register">Already have an account? <a href="index.html" class="register_btn">LOGIN!</a></p>
+</body>
+</html>
